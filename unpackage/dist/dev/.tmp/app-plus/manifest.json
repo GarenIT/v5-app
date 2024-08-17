@@ -1,0 +1,174 @@
+{
+  "@platforms": [
+    "android",
+    "iPhone",
+    "iPad"
+  ],
+  "id": "__UNI__EA9DA80",
+  "name": "msvodx",
+  "version": {
+    "name": "1.0.0",
+    "code": "100"
+  },
+  "description": "",
+  "launch_path": "__uniappview.html",
+  "developer": {
+    "name": "",
+    "email": "",
+    "url": ""
+  },
+  "permissions": {
+    "VideoPlayer": {},
+    "SQLite": {},
+    "UniNView": {
+      "description": "UniNView原生渲染"
+    }
+  },
+  "plus": {
+    "useragent": {
+      "value": "uni-app",
+      "concatenate": true
+    },
+    "splashscreen": {
+      "autoclose": false,
+      "waiting": true,
+      "delay": 0
+    },
+    "popGesture": "close",
+    "launchwebview": {
+      "id": "1",
+      "kernel": "WKWebview",
+      "uni-app": "auto"
+    },
+    "statusbar": {
+      "immersed": "supportedDevice",
+      "style": "dark",
+      "background": "#F8F8F8"
+    },
+    "usingComponents": true,
+    "nvueCompiler": "uni-app",
+    "safearea": {
+      "bottom": {
+        "offset": "none"
+      }
+    },
+    "distribute": {
+      "splashscreen": {
+        "android": {
+          "hdpi": "D:/thirteen/桌面/appImg/5YXDADRSEQTG2KAwEsiGpRhwKnX83Mx6.png",
+          "xhdpi": "D:/thirteen/桌面/appImg/5YXDADRSEQTG2KAwEsiGpRhwKnX83Mx6.png",
+          "xxhdpi": "D:/thirteen/桌面/appImg/5YXDADRSEQTG2KAwEsiGpRhwKnX83Mx6.png"
+        },
+        "ios": {
+          "iphone": {
+            "portrait-896h@3x": "D:/thirteen/桌面/appImg/5YXDADRSEQTG2KAwEsiGpRhwKnX83Mx6.png",
+            "landscape-896h@3x": "D:/thirteen/桌面/appImg/5YXDADRSEQTG2KAwEsiGpRhwKnX83Mx6.png",
+            "portrait-896h@2x": "D:/thirteen/桌面/appImg/5YXDADRSEQTG2KAwEsiGpRhwKnX83Mx6.png",
+            "landscape-896h@2x": "D:/thirteen/桌面/appImg/5YXDADRSEQTG2KAwEsiGpRhwKnX83Mx6.png",
+            "iphonex": "D:/thirteen/桌面/appImg/5YXDADRSEQTG2KAwEsiGpRhwKnX83Mx6.png",
+            "iphonexl": "D:/thirteen/桌面/appImg/5YXDADRSEQTG2KAwEsiGpRhwKnX83Mx6.png",
+            "retina55": "D:/thirteen/桌面/appImg/5YXDADRSEQTG2KAwEsiGpRhwKnX83Mx6.png",
+            "retina55l": "D:/thirteen/桌面/appImg/5YXDADRSEQTG2KAwEsiGpRhwKnX83Mx6.png",
+            "retina47": "D:/thirteen/桌面/appImg/5YXDADRSEQTG2KAwEsiGpRhwKnX83Mx6.png",
+            "retina47l": "D:/thirteen/桌面/appImg/5YXDADRSEQTG2KAwEsiGpRhwKnX83Mx6.png",
+            "retina40": "D:/thirteen/桌面/appImg/5YXDADRSEQTG2KAwEsiGpRhwKnX83Mx6.png",
+            "retina40l": "D:/thirteen/桌面/appImg/5YXDADRSEQTG2KAwEsiGpRhwKnX83Mx6.png",
+            "retina35": "D:/thirteen/桌面/appImg/5YXDADRSEQTG2KAwEsiGpRhwKnX83Mx6.png"
+          },
+          "ipad": {
+            "portrait-1366h@2x": ""
+          }
+        }
+      },
+      "google": {
+        "permissions": [
+          "<uses-feature android:name=\"android.hardware.camera\"/>",
+          "<uses-feature android:name=\"android.hardware.camera.autofocus\"/>",
+          "<uses-permission android:name=\"android.permission.ACCESS_FINE_LOCATION\"/>",
+          "<uses-permission android:name=\"android.permission.CALL_PHONE\"/>",
+          "<uses-permission android:name=\"android.permission.CAMERA\"/>",
+          "<uses-permission android:name=\"android.permission.CHANGE_NETWORK_STATE\"/>",
+          "<uses-permission android:name=\"android.permission.CHANGE_WIFI_STATE\"/>",
+          "<uses-permission android:name=\"android.permission.FLASHLIGHT\"/>",
+          "<uses-permission android:name=\"android.permission.GET_ACCOUNTS\"/>",
+          "<uses-permission android:name=\"android.permission.MOUNT_UNMOUNT_FILESYSTEMS\"/>",
+          "<uses-permission android:name=\"android.permission.READ_CONTACTS\"/>",
+          "<uses-permission android:name=\"android.permission.READ_LOGS\"/>",
+          "<uses-permission android:name=\"android.permission.RECORD_AUDIO\"/>",
+          "<uses-permission android:name=\"android.permission.VIBRATE\"/>",
+          "<uses-permission android:name=\"android.permission.WAKE_LOCK\"/>",
+          "<uses-permission android:name=\"android.permission.WRITE_CONTACTS\"/>",
+          "<uses-permission android:name=\"android.permission.WRITE_SETTINGS\"/>"
+        ],
+        "abiFilters": [
+          "armeabi-v7a",
+          "arm64-v8a",
+          "x86"
+        ]
+      },
+      "apple": {},
+      "plugins": {
+        "payment": {},
+        "ad": null,
+        "audio": {
+          "mp3": {
+            "description": "Android平台录音支持MP3格式文件"
+          }
+        }
+      }
+    },
+    "compilerVersion": 3,
+    "nvueLaunchMode": "fast",
+    "allowsInlineMediaPlayback": true,
+    "uni-app": {
+      "compilerVersion": "2.6.11",
+      "control": "v8",
+      "nvueCompiler": "uni-app",
+      "renderer": "auto",
+      "nvue": {
+        "flex-direction": "column"
+      }
+    },
+    "tabBar": {
+      "color": "#8a8a8a",
+      "selectedColor": "#F0AD4E",
+      "backgroundColor": "#f9f9f9",
+      "borderStyle": "rgba(0,0,0,0.4)",
+      "fontSize": "12px",
+      "midButton": {
+        "text": "充值",
+        "height": "70px",
+        "iconWidth": "50px",
+        "iconPath": "/static/imgs/VIP.png"
+      },
+      "list": [
+        {
+          "iconPath": "/static/imgs/home_.png",
+          "selectedIconPath": "/static/imgs/home_sel.png",
+          "pagePath": "pages/index/index",
+          "text": "首页"
+        },
+        {
+          "iconPath": "/static/imgs/shares_.png",
+          "selectedIconPath": "/static/imgs/shares_sel.png",
+          "pagePath": "pages/member/share",
+          "text": "分享"
+        },
+        {
+          "iconPath": "/static/imgs/download_.png",
+          "selectedIconPath": "/static/imgs/download_sel.png",
+          "pagePath": "pages/down/down",
+          "text": "下载"
+        },
+        {
+          "iconPath": "/static/imgs/user_.png",
+          "selectedIconPath": "/static/imgs/user_sel.png",
+          "pagePath": "pages/member/member",
+          "text": "我的"
+        }
+      ],
+      "height": "50px"
+    }
+  },
+  "usingComponents": {}
+}

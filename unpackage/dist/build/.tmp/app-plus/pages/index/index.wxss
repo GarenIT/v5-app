@@ -1,0 +1,266 @@
+
+.content{
+	background: #f2f5f6;
+}
+.moreTig{
+	text-align: center;
+	color: #ccc;
+	font-size: 25rpx;
+	margin-bottom: 100rpx;
+}
+.class-sel{
+	border-radius: 20rpx;
+	color: #FF5722;
+	border: 1px solid #FF5722;
+	height: 40rpx;
+	line-height: 40rpx;
+	padding: 0 15rpx;
+}
+.video-list{
+	width: 97%;
+	padding: 0 3% 0 0;
+	margin-top: 20rpx;
+}
+.video-list view{
+	display: inline-block;
+}
+.videoImg{
+	width: 100%;
+	height: 200rpx;
+	border-radius: 10rpx 10rpx 0 0;
+	background: #e2e2e2;
+}
+.video-playTime{
+	font-size: 18rpx;
+	background: rgba(0,0,0,0.6);
+	color: #FFFFFF;
+	padding: 0 10rpx;
+	height: 30rpx;
+	line-height: 30rpx;
+	border-radius: 5rpx;
+	position: relative;
+	float: right;
+	margin: -45rpx 10rpx 0 0;
+	z-index: 98;
+}
+.video-info{
+	width: 46%;
+	background: #FFFFFF;
+	margin: 0 0 25rpx 4%;
+	border-radius: 10rpx;
+	font-size: 23rpx;
+	padding: 0 0 10rpx 0;
+}
+.video-title{
+	width: 97%;
+	padding: 10rpx 1% 10rpx 2%;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.video-gold{
+	margin-left: 2%;
+	padding: 0 10rpx;
+	height: 30rpx;
+	line-height: 30rpx;
+	border-radius: 5rpx;
+	background: #fff0e2;
+	color: #ff9030;
+}
+.video-gold image{
+	width: 25rpx;
+	height: 25rpx;
+	margin-bottom: -5rpx;
+}
+.video-date{
+	float: right;
+	margin-right: 8rpx;
+	font-size: 20rpx;
+}
+.class-list{
+	width: 93%;
+	padding: 0 3%;
+	color: #666;
+	font-size: 23rpx;
+	margin-top: 20rpx;
+}
+.class-list-add-height{
+	margin-top: 200rpx;
+}
+.class-list-position{
+	width: 93%;
+	background: #f2f5f6;
+	position: fixed;
+	top: 153rpx;
+	padding: 25rpx 3.5% 10rpx 3%;
+	z-index: 998;
+	font-size: 22rpx;
+}
+.class-list view{
+	display: inline-block;
+}
+.sub-class{
+	width: 100%;
+	height: 55rpx;
+	line-height: 55rpx;
+}
+.class-type{
+	width: 10%;
+	text-align: center;
+	color: #ff6f33;
+}
+.subclass-scroll{
+	white-space: nowrap;
+	display: inline-block;
+	width: 90%;
+	float: right;
+}
+.subclass-scroll view{
+	margin: 0 2%;
+}
+.head-notice{
+	width: 94%;
+	padding: 0 3%;
+}
+.head-notice-content{
+	background: #FFFFFF;
+	font-size: 20rpx;
+	height: 80rpx;
+	line-height: 80rpx;
+	padding: 0 15rpx;
+	border-radius: 15rpx;
+}
+.noticeImg{
+	width: 35rpx;
+	height: 35rpx;
+	margin-right: 10rpx;
+	margin-top: 23rpx;
+	float: left;
+}
+.head-notice-title{
+	width: 73%;
+	float: left;
+}
+.head-notice-time{
+	color: #FF5722;
+	float: right;
+}
+.banner-intro{
+	position: absolute;
+	bottom: 30rpx;
+	left: 10rpx;
+	font-size: 18rpx;
+	color: #FFFFFF;
+}
+.head-banner{
+	margin-top: 186rpx;
+}
+.swiper{
+	width: 94%;
+	height: 300rpx;
+	padding: 25rpx 3%;
+}
+.item{
+	border-radius: 15rpx;
+}
+.swiper image{
+	height: 100%;
+	width: 100%;
+	border-radius: 15rpx;
+}
+.head-content{
+	width: 93.5%;
+	/*background: #ff6f33; */
+	background: -webkit-gradient(linear, left top, right top, from(#ff8566), to(#ff6f33));  
+	background: -webkit-linear-gradient(rigth,#ff8566,#ff6f33);  
+	background: linear-gradient(to rigth,#ff8566,#ff6f33);
+	padding: 0rpx 25rpx 10rpx 25rpx;
+	text-align: center;
+	position: fixed;
+	top: 0;
+	z-index: 999;
+}
+.head-placeholder{
+	height: var(--status-bar-height);
+	padding-top: 10rpx;
+	box-sizing: content-box;
+}
+.head-search .head-logo{
+	width: 55rpx;
+	height: 55rpx;
+	border-radius: 50%;
+	float: left;
+	background: #E2E2E2;
+}
+.head-search .head-history{
+	width: 50rpx;
+	height: 48rpx;
+	border-radius: 50%;
+	float: right;
+	margin-top: 5rpx;
+}
+.head-search-center{
+	width: 75%;
+	display: inline-block;
+}
+.head-search .head-input{
+	height: 50rpx;
+	background: #FFFFFF;
+	border-radius: 50px;
+	font-size: 22rpx;
+	padding: 3px 38px 0 38px;
+	text-align: left;
+}
+.head-search .head-search-img{
+	width: 35rpx;
+	height: 35rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	margin-top: -48rpx;
+	margin-left: 10px;
+}
+.line-left-right{
+	position: fixed;
+	height: 30rpx;
+	z-index: 999;
+	top: 188rpx;
+}
+.line-left{
+	position: fixed;
+	left: 0rpx;
+	height: 30rpx;
+	width: 30rpx;
+	margin: -8rpx 0 0 -2rpx;
+}
+.line-right{
+	position: fixed;
+	right: 0rpx;
+	height: 30rpx;
+	width: 30rpx;
+	margin: -5rpx -2rpx 0 0;
+}
+.head-class{
+	color: #e2e2e2;
+	margin-top: 30rpx;
+	height: 50rpx;
+	line-height: 50rpx;
+	font-size: 25rpx;
+	width: 99%;
+	font-weight: bold;
+}
+.class-scroll{
+	white-space: nowrap;
+	float: right;
+	text-align: left;
+}
+.class-scroll view{
+	display: inline-block;
+	margin: 0 15rpx 0 8rpx;
+}
+.head-class-sel{
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 33rpx;
+}
+

@@ -1,0 +1,110 @@
+
+.close{ width:30px;height:30px;float:right;right:4%;top:8px;
+}
+.pay-list{ width:100%;height:100%;position:fixed;bottom:0;background:rgba(0,0,0,0.5);z-index:99;
+}
+.pay-content{ width:100%;background:#FFFFFF;bottom:0;position:absolute;padding:0 0 10px;
+}
+.pay-title{ width:100%;height:50px;line-height:50px;font-size:18px;padding:0 5%;color:#666666;border-bottom:1px solid #E8E8E8;
+}
+.pay-code-list{ width:90%;margin:20px 5% 10px;height:30px;border-bottom:1px dashed #E2E2E2;padding:0 0 15px;
+}
+.pay-code-list view{ display:inline-block;
+}
+.pay-img{ width:30px;height:30px;float:left;margin-right:8px;
+}
+.pay-name{ height:30px;float:left;font-size:16px;line-height:30px;color:#666666;
+}
+.pay-botton{ width:24px;height:24px;float:right;margin-top:3px;
+}
+.select{ background:-webkit-gradient(linear, left top, right top, from(rgba(218,171,57,0.6)), to(#ff5e63));
+}
+.custom{ width:98%;height:40px;line-height:40px;margin-top:20px;color:#666666;border:1px solid #E8E8E8;border-radius:3px;padding:0 1%;
+}
+.input{ height:40px;line-height:40px;padding:0 10px;
+}
+.money{ color:#FFFFFF;padding:0 15px;
+}
+.pay{ color:#FFFFFF;background:#ff5e63;float:right;padding:0 15px;margin-right:15px;
+}
+.bottom-pay{ width:100%;background:#2C405A;margin-top:10px;position:fixed;bottom:0;font-size:15px;height:50px;line-height:50px;
+}
+.bottom-pay view{ display:inline-block;
+}
+.center-content{ width:90%;margin-top:0;padding:10px 5%;
+}
+.center-title{ padding:15px 2px;color:#666666;
+}
+.center-scroll{ white-space:nowrap;
+}
+.center-info{
+	display: inline-block;
+	margin: 0 30rpx 0 0;
+	width: 43%;
+	height: 145px;
+	border-radius: 5px;
+	/*border: 2px solid #3F536E; */
+	/*box-shadow: 0px 6px 6px 0px rgba(103, 103, 103, 0.5); */
+	text-align: center;
+	padding: 20px 0 0 0;
+	/*background: #3F536E; */
+}
+.default{ background: -webkit-gradient(linear, left top, right top, from(rgba(0,0,0,0.3)), to(#3F536E));
+}
+.default{ background: #af20d0;
+}
+.center-info view{ padding:5px 1%;font-size:16px;
+}
+.center-name{ color:rgba(255,255,255,0.8);border-bottom:1px solid #FFFFFF;width:80%;margin:0 auto;height:20px;line-height:20px;
+}
+.center-number{ color:#FFFFFF;width:98%;height:50px;line-height:50px;
+}
+.center-money{ color:#FFB800;font-weight:bold;width:80%;margin:auto;border:1px solid #E8E8E8;border-radius:50px;
+}
+.myGold{ margin-top:15px;background:rgba(103,103,103,0.8);padding:8px 0;font-size:15px;
+}
+.gold{ width:30px;height:30px;
+}
+.head-content{ 
+	width: 100%;
+	height: 350rpx;
+	background: -webkit-gradient(linear, left top, right top, from(rgba(218,171,57,0.6)), to(#ff5e63));
+	-webkit-clip-path: polygon(0% 0%,0% 100%,100% 65%,100% 0%);
+	        clip-path: polygon(0% 0%,0% 100%,100% 65%,100% 0%);
+}
+.username{ font-size:20px;font-weight:bold;
+}
+.vipTime{ font-size:15px;margin-top:10px;background:rgba(255,94,99,0.8);display:inline-block;padding:5px 10px;border-radius:5px;
+}
+.head-top{ 
+	width:70%;
+	background: rgba(239,187,52,0.9);
+	margin: -200rpx auto 0;
+	border-radius: 10px;
+	z-index: 9;
+	position: relative;
+	color: #FFFFFF;
+	padding: 20px 0;
+	height: 120px;
+	text-align: center;
+	box-shadow: 0px 6px 6px 0px rgba(103, 103, 103, 0.8);
+}
+.content{ width:100%;
+}
+.head{ 
+	background: rgba(218,171,57,0.6);
+	text-align: center;
+	padding: 13px 0;
+	color: #FFFFFF;
+	width: 80%;
+	margin: auto;
+	border-radius: 10px;
+	box-shadow: 0px 4px 6px 0px rgba(103, 103, 103, 0.8);
+	height: 50rpx;
+	line-height: 50rpx;
+}
+.head view{ display:inline-block;width:100px;font-size:18px;font-weight:bold;
+}
+.ok{ border-bottom:3px solid #FFFFFF;padding-bottom:3px;
+}
+

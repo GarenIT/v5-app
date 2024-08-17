@@ -1,0 +1,6 @@
+{
+  "enablePullDownRefresh": true,
+  "navigationBarTitleText": "视频下载列表",
+  "scrollIndicator": "none",
+  "usingComponents": {}
+}

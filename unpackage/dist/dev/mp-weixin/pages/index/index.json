@@ -1,0 +1,10 @@
+{
+  "enablePullDownRefresh": false,
+  "navigationBarTitleText": "首页",
+  "onReachBottomDistance": 100,
+  "usingComponents": {
+    "jyf-parser": "/components/jyf-parser/jyf-parser",
+    "easy-loadimage": "/components/easy-loadimage/easy-loadimage",
+    "uni-swiper-dot": "/components/uni-swiper-dot/uni-swiper-dot"
+  }
+}

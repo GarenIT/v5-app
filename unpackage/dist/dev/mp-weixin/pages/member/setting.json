@@ -1,0 +1,7 @@
+{
+  "enablePullDownRefresh": false,
+  "navigationBarTitleText": "个人设置",
+  "usingComponents": {
+    "neil-modal": "/components/neil-modal/neil-modal"
+  }
+}

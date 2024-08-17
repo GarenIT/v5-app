@@ -1,0 +1,250 @@
+
+.moreTig{
+	text-align: center;
+	color: #999999;
+	font-size: 25rpx;
+	margin-top: 20rpx;
+	/*background: #007AFF;
+ */
+	padding-bottom: 30px;
+}
+.colorRed{
+	color: #B01A1C;
+}
+.video-list{
+	width: 97%;
+	/*height: 100upx;
+ */
+	/*background: #F8F8F8;
+ */
+	/*margin: 10px 5%;
+ */
+	padding: 1px 0 10px 3%;
+	/*border-radius: 5px;
+ */
+	/*text-align: center;
+ */
+}
+.video-desc{
+	width: 100%;
+	text-align: center;
+	font-size: 12px;
+	color: #666666;
+	margin: 10px 0;
+}
+.video-info{
+	width: 45%;
+	height: 265rpx;
+	/*background: #1AAD19;
+ */
+	-webkit-border-radius: 5px;
+	        border-radius: 5px;
+	border: 1px solid #E5E5E5;
+	padding-bottom: 8px;
+	display: inline-block;
+	margin: 0 0 3% 2%;
+	float: left;
+}
+.video-info image{
+	width: 100%;
+	height: 200rpx;
+	-webkit-border-radius: 5px 5px 0 0;
+	        border-radius: 5px 5px 0 0;
+}
+.video-info .title{
+	font-size: 12px;
+	/*color: #666666;
+ */
+	line-height: 30rpx;
+	background: #007AFF;
+	/*padding: 0 3px;
+ */
+}
+.one{
+	background: #B01A1C;
+	color: #FFFFFF!important;
+}
+.two{
+	background: #007AFF;
+	color: #FFFFFF!important;
+}
+.thr{
+	background: #A83FDB;
+	color: #FFFFFF!important;
+}
+.search-hot-list{
+	width: 92%;
+	/* height: 30px;
+	line-height: 30px; */
+	font-size: 13px;
+	-webkit-border-radius: 3px;
+	        border-radius: 3px;
+	margin: 0 5% 0 3%;
+}
+.search-hot-sort{
+	width: 20px;
+	height: 20px;
+	line-height: 20px;
+	display: inline-block;
+	text-align: center;
+	/*background: #007AFF;
+ */
+	-webkit-border-radius: 50%;
+	        border-radius: 50%;
+	color: #666666;
+}
+.search-hot-title{
+	width: 63%;
+	padding: 0 5% 0 0;
+	height: 20px;
+	line-height: 20px;
+	display: inline-block;
+	/*background: #1ABD6C;
+ */
+	color: #777777;
+	float: right;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.search-hot-time{
+	width: 22%;
+	/*background: #007AFF;
+ */
+	float: right;
+	height: 20px;
+	line-height: 20px;
+	text-align: right;
+}
+.search-hot-content{
+	margin-top: 10px;
+	/*margin-left: -20upx;
+ */
+}
+.hot{
+	margin-bottom: 18px;
+}
+.search-log-content{
+	margin-top: 18px;
+	/*background: #007AFF;
+ */
+}
+.search-log-content view{
+	display: inline-block;
+}
+.search-log-list{
+	width: 25%;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	background: #f5f5f5;
+	font-size: 13px;
+	-webkit-border-radius: 3px;
+	        border-radius: 3px;
+	color: #999999;
+	margin: 0 0 5px 10px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	padding: 0 5px;
+}
+.search-log{
+	margin-top: 10px;
+	padding: 0 35rpx;
+	font-size: 17px;
+	color: #666666;
+	font-weight: bold;
+	/*background: #007AFF;
+ */
+}
+.search-log-top{
+	/*height: 30px;
+ */
+	line-height: 20px;
+	/*background: #007AFF;
+ */
+}
+.search-log-top image{
+	width: 20px;
+	height: 20px;
+	float: right;
+}
+.content{
+	margin-top: 18px;
+}
+.head-content{
+	width: 94%;
+	background: #f8f8f8;
+	/*background: -webkit-gradient(linear, left top, right top, from(#ff8566), to(#ff6f33));   
+ */
+	padding: 0rpx 25rpx 10rpx;
+	text-align: center;
+	position: fixed;
+	top: 0;
+	z-index: 999;
+	border-bottom: 1px solid #f3f3f3;
+}
+.head-placeholder{
+
+
+
+	padding-top: 16rpx;
+	-webkit-box-sizing: content-box;
+	        box-sizing: content-box;
+}
+.head-left{
+	width: 10%;
+	display: inline-block;
+	float: left;
+}
+.head-left image{
+	width: 27px;
+	height: 27px;
+	margin-top: 3px;
+	/*background: rgba(0,0,0,0.5);
+ */
+	-webkit-border-radius: 50%;
+	        border-radius: 50%;
+	opacity: 0.6;
+	filter: alpha(opacity=60);
+}
+.head-right{
+	width: 10%;
+	/*background: #007AFF;
+ */
+	display: inline-block;
+	float: right;
+	text-align: left;
+}
+.head-right image{
+	width: 32px;
+	height: 32px;
+	-webkit-border-radius: 50%;
+	        border-radius: 50%;
+}
+.head-search-center{
+
+
+
+
+	width: 83%;
+
+	display: inline-block;
+	/*background-color: #007AFF;
+ */
+}
+.head-search .head-input{
+	height: 32px;
+	line-height: 32px;
+	background: #E5E5E5;
+	-webkit-border-radius: 50px;
+	        border-radius: 50px;
+	font-size: 26rpx;
+	padding: 0px 30rpx;
+	text-align: left;
+	color: #666666;
+}
+.error{
+	margin-top: 300rpx;
+}
+

@@ -1,0 +1,7 @@
+{
+  "enablePullDownRefresh": false,
+  "navigationBarTitleText": "宣传海报",
+  "scrollIndicator": "none",
+  "titleNView": false,
+  "usingComponents": {}
+}

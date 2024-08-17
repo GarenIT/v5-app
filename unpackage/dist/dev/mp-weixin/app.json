@@ -1,0 +1,90 @@
+{
+  "pages": [
+    "pages/index/init",
+    "pages/index/index",
+    "pages/video/search",
+    "pages/recharge/index",
+    "pages/recharge/recharge",
+    "pages/member/share",
+    "pages/down/down",
+    "pages/video/album",
+    "pages/member/member",
+    "pages/video/play",
+    "pages/setting/setting",
+    "pages/setting/about",
+    "pages/member/setting",
+    "pages/member/mymoney",
+    "pages/game/game_list",
+    "pages/game/luck_turntable",
+    "pages/member/deposit",
+    "pages/member/money_log",
+    "pages/member/bank_list",
+    "pages/member/add_bank",
+    "pages/member/deposit_log",
+    "pages/member/collect",
+    "pages/member/watch_log",
+    "pages/member/poster",
+    "pages/member/share_log",
+    "pages/login/login",
+    "pages/member/activity",
+    "pages/plaza/index",
+    "pages/plaza/send",
+    "pages/plaza/info",
+    "pages/member/home_page",
+    "pages/upload/index",
+    "pages/jump/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "msvodx",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#8a8a8a",
+    "selectedColor": "#ff0cd0",
+    "backgroundColor": "#FFFFFF",
+    "borderStyle": "black",
+    "fontSize": "12px",
+    "list": [
+      {
+        "iconPath": "/static/imgs/home_.png",
+        "selectedIconPath": "/static/imgs/home_ok.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "iconPath": "/static/imgs/shares_.png",
+        "selectedIconPath": "/static/imgs/shares_ok.png",
+        "pagePath": "pages/member/poster",
+        "text": "分享"
+      },
+      {
+        "iconPath": "/static/imgs/vip_no.png",
+        "selectedIconPath": "/static/imgs/vip.png",
+        "pagePath": "pages/recharge/index",
+        "text": "充值"
+      },
+      {
+        "iconPath": "/static/imgs/plaza_.png",
+        "selectedIconPath": "/static/imgs/plaza_ok.png",
+        "pagePath": "pages/plaza/index",
+        "text": "广场"
+      },
+      {
+        "iconPath": "/static/imgs/user_.png",
+        "selectedIconPath": "/static/imgs/user_ok.png",
+        "pagePath": "pages/member/member",
+        "text": "我的"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 5000,
+    "connectSocket": 10000,
+    "uploadFile": 20000,
+    "downloadFile": 20000
+  },
+  "usingComponents": {}
+}

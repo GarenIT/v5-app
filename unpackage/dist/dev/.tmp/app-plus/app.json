@@ -1,0 +1,96 @@
+{
+  "pages": [
+    "pages/index/init",
+    "pages/index/index",
+    "pages/class/class",
+    "pages/recharge/recharge",
+    "pages/member/share",
+    "pages/down/down",
+    "pages/video/album",
+    "pages/member/member",
+    "pages/setting/setting",
+    "pages/setting/about",
+    "pages/member/setting",
+    "pages/member/mymoney",
+    "pages/game/game_list",
+    "pages/game/luck_turntable",
+    "pages/member/deposit",
+    "pages/member/money_log",
+    "pages/member/bank_list",
+    "pages/member/add_bank",
+    "pages/member/deposit_log",
+    "pages/member/collect",
+    "pages/member/watch_log",
+    "pages/member/poster",
+    "pages/member/share_log",
+    "pages/login/login",
+    "pages/login/register",
+    "pages/member/activity"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "msvodx",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#8a8a8a",
+    "selectedColor": "#F0AD4E",
+    "backgroundColor": "#f9f9f9",
+    "borderStyle": "black",
+    "fontSize": "12px",
+    "midButton": {
+      "text": "充值",
+      "height": "70px",
+      "iconWidth": "50px",
+      "iconPath": "/static/imgs/VIP.png"
+    },
+    "list": [
+      {
+        "iconPath": "/static/imgs/home_.png",
+        "selectedIconPath": "/static/imgs/home_sel.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "iconPath": "/static/imgs/shares_.png",
+        "selectedIconPath": "/static/imgs/shares_sel.png",
+        "pagePath": "pages/member/share",
+        "text": "分享"
+      },
+      {
+        "iconPath": "/static/imgs/download_.png",
+        "selectedIconPath": "/static/imgs/download_sel.png",
+        "pagePath": "pages/down/down",
+        "text": "下载"
+      },
+      {
+        "iconPath": "/static/imgs/user_.png",
+        "selectedIconPath": "/static/imgs/user_sel.png",
+        "pagePath": "pages/member/member",
+        "text": "我的"
+      }
+    ]
+  },
+  "nvue": {
+    "pages": {
+      "pages/video/play.html": {
+        "window": {
+          "usingComponents": {},
+          "enablePullDownRefresh": true,
+          "navigationBarTitleText": "正在播放"
+        },
+        "nvue": true
+      }
+    }
+  },
+  "nvueCompiler": "uni-app",
+  "renderer": "auto",
+  "splashscreen": {
+    "alwaysShowBeforeRender": false,
+    "autoclose": true
+  },
+  "appname": "msvodx",
+  "compilerVersion": "2.6.11",
+  "usingComponents": {}
+}

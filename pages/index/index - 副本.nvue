@@ -1,0 +1,49 @@
+<style scoped>
+.page {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #000000;
+}
+</style>
+<template>
+  <view class="page">
+    <uni-push slot="one" :windowHeight="windowHeight" :statusBarHeight="statusBarHeight" :userId="userId" :playStatus="playStatus"> </uni-push>
+  </view>
+</template>
+<script>
+var system = uni.getSystemInfoSync()
+import api from "@/common/api.js"
+import uniPush from "@/components/svod/push"
+export default {
+  components: {
+    uniPush,
+  },
+  data() {
+    return {
+      statusBarHeight: system.statusBarHeight,
+      windowHeight: system.windowHeight - system.statusBarHeight,
+      curIndex: 0,
+      playStatus: true,
+      userId: 0,
+    }
+  },
+  onLoad() {
+    //console.log(system)
+  },
+  onShow() {
+    return
+    //console.log('onShow');
+    this.playStatus = true
+    let login = api.getLogins()
+    if (login) this.userId = login.userId
+  },
+  onHide() {
+    this.playStatus = false
+    console.log("onHide", this.playStatus)
+  },
+  methods: {},
+}
+</script>

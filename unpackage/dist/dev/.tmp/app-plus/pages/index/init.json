@@ -1,0 +1,7 @@
+{
+  "enablePullDownRefresh": false,
+  "navigationBarTitleText": "引导页",
+  "scrollIndicator": "none",
+  "titleNView": false,
+  "usingComponents": {}
+}

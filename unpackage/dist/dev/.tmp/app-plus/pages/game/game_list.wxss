@@ -1,0 +1,23 @@
+
+.info{ width:90%;background:#393D49;border-radius:10px;margin:0 5% 10px;
+}
+.list-content{ padding:3px 10px 10px;font-size:14px;color:#FFFFFF;
+}
+.list-content view{ display:inline-block;
+}
+.list-time{ float:right;
+}
+.info-img{ width:100%;height:170px;border-radius:10px 10px 0 0;
+}
+.content-head{ 
+	position: fixed;
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	top: 27px;
+	text-align: center;
+	color: #666666;
+}
+.list{ margin-top:70px;padding-bottom:15px;
+}
+

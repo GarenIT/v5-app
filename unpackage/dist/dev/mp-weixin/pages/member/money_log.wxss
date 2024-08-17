@@ -1,0 +1,79 @@
+
+.content-head-back{
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	-webkit-border-radius: 50%;
+	        border-radius: 50%;
+	background: rgba(0,0,0,0.5);
+	float: left;
+	margin-left: 10px;
+}
+.head-title .sel{
+	background-color: rgba(255,12,208,0.8);
+	color: #FFFFFF;
+}
+.head-title text{
+	display: inline-block;
+	text-align: center;
+	background-color: #FFFFFF;
+	width: 45%;
+	height: 40px;
+	line-height: 40px;
+	color: #666666;
+}
+.head-title{
+	text-align: center;
+	font-size: 33rpx;
+	width: 100%;
+	background-color: #24292E;
+	margin-top: 30px;
+}
+.moreTig{
+	text-align: center;
+	color: #ccc;
+	font-size: 25rpx;
+	margin: 30rpx 0 50rpx 0;
+}
+.info-title{
+	font-size: 30rpx;
+	width: 80%;
+	color: #000000;
+}
+.money{
+	float: right; 
+	margin-top: -40px;
+	font-size: 16px;
+	text-align: right;
+}
+.content-head{ 
+	position: fixed;
+	width: 100%;
+	top: 0;
+	z-index: 9;
+	text-align: center;
+	color: #FFFFFF; 
+	background-color: #24292E;
+	border-bottom: 1px solid #F8F8F8;
+}
+.bank-list{ margin-top:70px;padding-bottom:15px;
+}
+.bank-info view{ display: inline-block;
+}
+.bank-content{
+	width: 100%;
+	font-size: 30rpx;
+}
+.bank-content view{ display: block;
+}
+.bank-name{ font-size: 26rpx;
+}
+.bank-info{
+	padding: 6px 15px;
+	width: 86%;
+	margin: 0 auto 10rpx;
+	font-size: 17px;
+	border-bottom: 1px solid #F8F8F8;
+	color: #666666;
+}
+

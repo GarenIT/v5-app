@@ -1,0 +1,8 @@
+{
+  "enablePullDownRefresh": true,
+  "titleNView": false,
+  "bounce": "none",
+  "usingComponents": {
+    "neil-modal": "/components/neil-modal/neil-modal"
+  }
+}

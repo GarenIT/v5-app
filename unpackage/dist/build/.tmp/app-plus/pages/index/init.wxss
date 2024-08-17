@@ -1,0 +1,33 @@
+
+.stopTime{
+	position: fixed;
+	top: 30px;
+	right: 20px;
+	font-size: 15px;
+	background: rgba(0,0,0,0.5);
+	color: #FFFFFF;
+	padding: 0 10px;
+	line-height: 25px;
+	border-radius: 3px;
+}
+.experUrl{
+	position: fixed;
+	bottom: 50px;
+	left: 50%;
+	padding: 10px 0;
+	width: 80px;
+	text-align: center;
+	font-size: 15px;
+	margin-left: -40px;
+	color: #FFFFFF;
+	background: #4CD964;
+	border-radius: 10px;
+}
+.swiper{
+	width: 100%;
+}
+.swiper image{
+	width: 100%;
+	height: 100%;
+}
+

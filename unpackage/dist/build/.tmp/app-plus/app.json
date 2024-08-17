@@ -1,0 +1,96 @@
+{
+  "pages": [
+    "pages/index/init",
+    "pages/index/index",
+    "pages/class/class",
+    "pages/vip/vip",
+    "pages/smallvideo/smallvideo",
+    "pages/memer/memer"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#8a8a8a",
+    "selectedColor": "#F0AD4E",
+    "backgroundColor": "#FFFFFF",
+    "borderStyle": "white",
+    "list": [
+      {
+        "iconPath": "/static/imgs/home_.png",
+        "selectedIconPath": "/static/imgs/home_sel.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "iconPath": "/static/imgs/class_.png",
+        "selectedIconPath": "/static/imgs/class_sel.png",
+        "pagePath": "pages/class/class",
+        "text": "分类"
+      },
+      {
+        "iconPath": "/static/imgs/msg_.png",
+        "selectedIconPath": "/static/imgs/msg_sel.png",
+        "pagePath": "pages/vip/vip",
+        "text": "消息"
+      },
+      {
+        "iconPath": "/static/imgs/video_.png",
+        "selectedIconPath": "/static/imgs/video_sel.png",
+        "pagePath": "pages/smallvideo/smallvideo",
+        "text": "小视频"
+      },
+      {
+        "iconPath": "/static/imgs/user_.png",
+        "selectedIconPath": "/static/imgs/user_sel.png",
+        "pagePath": "pages/memer/memer",
+        "text": "我的"
+      }
+    ]
+  },
+  "nvue": {
+    "pages": {
+      "pages/video/play.html": {
+        "window": {
+          "usingComponents": {},
+          "enablePullDownRefresh": true,
+          "navigationBarTitleText": "正在播放"
+        },
+        "nvue": true
+      },
+      "pages/login/login.html": {
+        "window": {
+          "usingComponents": {},
+          "navigationBarTitleText": "登录",
+          "navigationBarTextStyle": "white",
+          "titleNView": false
+        },
+        "nvue": true
+      },
+      "pages/forgetpwd/forgetpwd.html": {
+        "window": {
+          "usingComponents": {},
+          "navigationBarTitleText": "",
+          "navigationBarTextStyle": "black",
+          "titleNView": {
+            "type": "default",
+            "backgroundColor": "#FFFFFF"
+          }
+        },
+        "nvue": true
+      }
+    }
+  },
+  "nvueCompiler": "weex",
+  "renderer": "auto",
+  "splashscreen": {
+    "alwaysShowBeforeRender": false,
+    "autoclose": true
+  },
+  "appname": "msvodx",
+  "compilerVersion": "2.4.6",
+  "usingComponents": {}
+}

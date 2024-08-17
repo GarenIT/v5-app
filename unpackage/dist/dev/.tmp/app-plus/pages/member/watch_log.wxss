@@ -1,0 +1,48 @@
+
+.moreTig{
+	text-align: center;
+	color: #ccc;
+	font-size: 25rpx;
+	margin: 30rpx 0 50rpx 0;
+}
+.watch-radius{ width:18px;height:18px;background:rgba(218,171,57,1);float:left;border-radius:50%;margin-left:-11px;margin-top:30px;
+}
+.video-class{ font-size:13px;
+}
+.video-time{ font-size:13px;
+}
+.video-title{
+	font-size: 16px;
+	color: #333333;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	/*background: #1AAD19; */
+	height: 70rpx;
+	line-height: 70rpx;
+}
+.video-info view{ width:100%;float:left;color:#666666;
+}
+.video-img image{ width:100%;height:100%;border-radius:10px;
+}
+.video-img{ width:35%;padding:0 0 0 2%;height:80px;
+}
+.video-info{ width:58%;float:right;
+}
+.watch-content view{ display:inline-block;
+}
+.watch-content{ width:90%;margin:0 5%;border-left:4px solid rgba(218,171,57,0.9);padding:5px 0 0 0;
+}
+.watch-list{ width:100%;padding-bottom:15px;
+}
+.select{ border-bottom:3px solid #FFFFFF;padding-bottom:5px;
+}
+.content-head{ position:fixed;width:100%;height:30px;line-height:30px;top:27px;text-align:center;color:#FFFFFF;z-index:10;font-weight:bold;
+}
+.watch-head{ width:100%;text-align:center;background:-webkit-gradient(linear,left top,right top,from(rgba(218,171,57,1)),to(#ff5e63));position:fixed;z-index:5;
+}
+.watch-head view{ display:inline-block;width:70px;font-size:16px;color:#FFFFFF;font-weight:bold;
+}
+.del-log{ background:rgba(0,0,0,0.5);padding:5px 2px 5px 8px;border-radius:50px 0 0 50px;position:absolute;right:0;
+}
+

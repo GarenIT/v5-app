@@ -1,0 +1,7 @@
+{
+  "enablePullDownRefresh": false,
+  "navigationBarTitleText": "幸运转盘",
+  "usingComponents": {
+    "fireworks": "/components/sanshui-fireworks/index"
+  }
+}

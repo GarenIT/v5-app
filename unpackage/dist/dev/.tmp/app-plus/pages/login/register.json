@@ -1,0 +1,13 @@
+{
+  "navigationBarTitleText": "",
+  "navigationBarTextStyle": "black",
+  "scrollIndicator": "none",
+  "titleNView": {
+    "type": "default",
+    "backgroundColor": "#FFFFFF"
+  },
+  "usingComponents": {
+    "w-input": "/components/watch-login/watch-input",
+    "w-button": "/components/watch-login/watch-button"
+  }
+}

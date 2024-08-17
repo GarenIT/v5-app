@@ -1,0 +1,7 @@
+{
+  "enablePullDownRefresh": true,
+  "navigationBarTitleText": "会员中心",
+  "scrollIndicator": "none",
+  "titleNView": false,
+  "usingComponents": {}
+}

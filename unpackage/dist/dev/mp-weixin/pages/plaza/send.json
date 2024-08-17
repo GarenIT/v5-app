@@ -1,0 +1,7 @@
+{
+  "enablePullDownRefresh": false,
+  "navigationBarTitleText": "发帖",
+  "usingComponents": {
+    "g-upload": "/components/g-upload/g-upload"
+  }
+}

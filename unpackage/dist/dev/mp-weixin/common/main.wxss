@@ -1,0 +1,15 @@
+
+page{
+		background-color: #FFFFFF;
+}
+uni-swiper .uni-swiper-dot{
+		width: 5px!important;
+		height: 5px!important;
+}
+uni-swiper .uni-swiper-dot-active{
+		width: 12px!important;
+		-webkit-border-radius: 8rpx!important;
+		        border-radius: 8rpx!important;
+}
+
+

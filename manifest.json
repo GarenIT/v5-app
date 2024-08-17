@@ -1,0 +1,243 @@
+{
+    "name" : "魅思视频",
+    "appid" : "__UNI__EA9DA80",
+    "description" : "精彩视频，你懂的！！",
+    "versionName" : "5.0.1",
+    "versionCode" : 501,
+    "transformPx" : false,
+    // 超时设置
+    "networkTimeout" : {
+        "request" : 12000,
+        "connectSocket" : 12000,
+        "uploadFile" : 20000,
+        "downloadFile" : 20000
+    },
+    /* 5+App特有相关 */
+    "app-plus" : {
+        "usingComponents" : true,
+        "nvueCompiler" : "uni-app",
+        "splashscreen" : {
+            // 是否等待首页加载完成在关闭启动界面
+            "alwaysShowBeforeRender" : false,
+            // 是否在程序启动界面显示等待雪花
+            "waiting" : true,
+            // 是否自动关闭程序启动界面
+            "autoclose" : false,
+            // 启动界面在应用的首页面加载完毕后延迟关闭的时间
+            "delay" : 0
+        },
+        /* "privacy": {
+        	"prompt": "template",
+        	"template": {
+        		"title": "服务协议和隐私政策",
+        		"message": "请你务必审慎阅读、充分理解“服务协议”和“隐私政策”各条款，包括但不限于：为了更好的向你提供服务，我们需要收集你的设备标识、操作日志等信息用于分析、优化应用性能。<br/>你可阅读<a href=''>《服务协议》</a>和<a href=''>《隐私政策》</a>了解详细信息。如果你同意，请点击下面按钮开始接受我们的服务。",
+        		"buttonAccept": "我知道了",
+        		"buttonRefuse": "暂不同意"
+        	}
+        }, */
+        "compatible" : {
+            "ignoreVersion" : true //true表示忽略版本检查提示框，HBuilderX1.9.0及以上版本支持  
+        },
+        "confusion" : {
+            "description" : "原生混淆",
+            "resources" : {
+                "common/api.js" : {}
+            }
+        },
+        // 去苹果安全区
+        "safearea" : {
+            "bottom" : {
+                "offset" : "none"
+            }
+        },
+        /* 模块配置 */
+        "modules" : {
+            "VideoPlayer" : {},
+            "SQLite" : {},
+            "LivePusher" : {}
+        },
+        /* 应用发布信息 */
+        "distribute" : {
+            /* android打包配置 */
+            "android" : {
+                "permissions" : [
+                    "<uses-feature android:name=\"android.hardware.camera\"/>",
+                    "<uses-feature android:name=\"android.hardware.camera.autofocus\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_FINE_LOCATION\"/>",
+                    "<uses-permission android:name=\"android.permission.CALL_PHONE\"/>",
+                    "<uses-permission android:name=\"android.permission.CAMERA\"/>",
+                    "<uses-permission android:name=\"android.permission.CHANGE_NETWORK_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.CHANGE_WIFI_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.FLASHLIGHT\"/>",
+                    "<uses-permission android:name=\"android.permission.INSTALL_LOCATION_PROVIDER\"/>",
+                    "<uses-permission android:name=\"android.permission.INSTALL_PACKAGES\"/>",
+                    "<uses-permission android:name=\"android.permission.INSTALL_SHORTCUT\"/>",
+                    "<uses-permission android:name=\"android.permission.MOUNT_UNMOUNT_FILESYSTEMS\"/>",
+                    "<uses-permission android:name=\"android.permission.READ_LOGS\"/>",
+                    "<uses-permission android:name=\"android.permission.RECORD_AUDIO\"/>",
+                    "<uses-permission android:name=\"android.permission.REQUEST_INSTALL_PACKAGES\"/>",
+                    "<uses-permission android:name=\"android.permission.VIBRATE\"/>",
+                    "<uses-permission android:name=\"android.permission.WAKE_LOCK\"/>",
+                    "<uses-permission android:name=\"android.permission.WRITE_SETTINGS\"/>"
+                ],
+                "schemes" : [ "v5msvodx" ],
+                "abiFilters" : [ "armeabi-v7a", "arm64-v8a" ]
+            },
+            /* ios打包配置 */
+            "ios" : {
+                "idfa" : true,
+                "urltypes" : "v5msvodx"
+            },
+            /* SDK配置 */
+            "sdkConfigs" : {
+                "payment" : {
+                    "alipay" : {
+                        "__platform__" : [ "ios", "android" ]
+                    },
+                    "weixin" : {
+                        "__platform__" : [ "ios", "android" ],
+                        "appid" : "wx4dc522ebc81e5d6c",
+                        "UniversalLinks" : "https://demo.dcloud.net.cn/ulink/"
+                    },
+                    "appleiap" : {}
+                },
+                "ad" : {}
+            },
+            "splashscreen" : {
+                "android" : {
+                    "hdpi" : "D:/thirteen/桌面/appImg/loading.png",
+                    "xhdpi" : "D:/thirteen/桌面/appImg/loading.png",
+                    "xxhdpi" : "D:/thirteen/桌面/appImg/loading.png"
+                },
+                "ios" : {
+                    "iphone" : {
+                        "portrait-896h@3x" : "D:/thirteen/桌面/appImg/loading.png",
+                        "landscape-896h@3x" : "D:/thirteen/桌面/appImg/loading.png",
+                        "portrait-896h@2x" : "D:/thirteen/桌面/appImg/loading.png",
+                        "landscape-896h@2x" : "D:/thirteen/桌面/appImg/loading.png",
+                        "iphonex" : "D:/thirteen/桌面/appImg/loading.png",
+                        "iphonexl" : "D:/thirteen/桌面/appImg/loading.png",
+                        "retina55" : "D:/thirteen/桌面/appImg/loading.png",
+                        "retina55l" : "D:/thirteen/桌面/appImg/loading.png",
+                        "retina47" : "D:/thirteen/桌面/appImg/loading.png",
+                        "retina47l" : "D:/thirteen/桌面/appImg/loading.png",
+                        "retina40" : "D:/thirteen/桌面/appImg/loading.png",
+                        "retina40l" : "D:/thirteen/桌面/appImg/loading.png",
+                        "retina35" : "D:/thirteen/桌面/appImg/loading.png"
+                    },
+                    "ipad" : {
+                        "portrait-1366h@2x" : ""
+                    }
+                },
+                "androidStyle" : "common",
+                "iosStyle" : "common"
+            },
+            "icons" : {
+                "android" : {
+                    "hdpi" : "unpackage/res/icons/72x72.png",
+                    "xhdpi" : "unpackage/res/icons/96x96.png",
+                    "xxhdpi" : "unpackage/res/icons/144x144.png",
+                    "xxxhdpi" : "unpackage/res/icons/192x192.png"
+                },
+                "ios" : {
+                    "appstore" : "unpackage/res/icons/1024x1024.png",
+                    "ipad" : {
+                        "app" : "unpackage/res/icons/76x76.png",
+                        "app@2x" : "unpackage/res/icons/152x152.png",
+                        "notification" : "unpackage/res/icons/20x20.png",
+                        "notification@2x" : "unpackage/res/icons/40x40.png",
+                        "proapp@2x" : "unpackage/res/icons/167x167.png",
+                        "settings" : "unpackage/res/icons/29x29.png",
+                        "settings@2x" : "unpackage/res/icons/58x58.png",
+                        "spotlight" : "unpackage/res/icons/40x40.png",
+                        "spotlight@2x" : "unpackage/res/icons/80x80.png"
+                    },
+                    "iphone" : {
+                        "app@2x" : "unpackage/res/icons/120x120.png",
+                        "app@3x" : "unpackage/res/icons/180x180.png",
+                        "notification@2x" : "unpackage/res/icons/40x40.png",
+                        "notification@3x" : "unpackage/res/icons/60x60.png",
+                        "settings@2x" : "unpackage/res/icons/58x58.png",
+                        "settings@3x" : "unpackage/res/icons/87x87.png",
+                        "spotlight@2x" : "unpackage/res/icons/80x80.png",
+                        "spotlight@3x" : "unpackage/res/icons/120x120.png"
+                    }
+                }
+            }
+        },
+        "compilerVersion" : 3,
+        "nativePlugins" : {
+            "JX-Dlna" : {
+                "__plugin_info__" : {
+                    "name" : "Dlna投屏插件",
+                    "description" : "原生投屏插件，支持安卓，支持Dlna",
+                    "platforms" : "Android",
+                    "url" : "",
+                    "android_package_name" : "",
+                    "ios_bundle_id" : "",
+                    "isCloud" : false,
+                    "bought" : -1,
+                    "pid" : "",
+                    "parameters" : {}
+                }
+            }
+        },
+        "uniStatistics" : {
+            "enable" : false
+        }
+    },
+    /* 快应用特有相关 */
+    "quickapp" : {},
+    /* 小程序特有相关 */
+    "mp-weixin" : {
+        "appid" : "wx84bef4c1be3aeb68",
+        "setting" : {
+            "urlCheck" : false
+        },
+        "usingComponents" : true,
+        "uniStatistics" : {
+            "enable" : false
+        }
+    },
+    "mp-alipay" : {
+        "usingComponents" : true,
+        "uniStatistics" : {
+            "enable" : false
+        }
+    },
+    "mp-baidu" : {
+        "usingComponents" : true,
+        "uniStatistics" : {
+            "enable" : false
+        }
+    },
+    "mp-toutiao" : {
+        "usingComponents" : true,
+        "uniStatistics" : {
+            "enable" : false
+        }
+    },
+    "h5" : {
+        "title" : "v5_black",
+        "domain" : "",
+        "uniStatistics" : {
+            "enable" : false
+        },
+        "optimization" : {
+            "treeShaking" : {
+                "enable" : false
+            }
+        }
+    },
+    "uniStatistics" : {
+        "enable" : false
+    },
+    "mp-qq" : {
+        "uniStatistics" : {
+            "enable" : false
+        }
+    }
+}
+//prompt取值为template时有效，用于配置模板提示框上显示的内容
+//true表示忽略版本检查提示框，HBuilderX1.9.0及以上版本支持  
+

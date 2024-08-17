@@ -1,0 +1,263 @@
+@charset "UTF-8";
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.data-v-723b7266 .uni-scroll-view::-webkit-scrollbar {
+  /* 隐藏滚动条，但依旧具备可以滚动的功能 */
+  display: none;
+}
+
+.mask {
+	/* pointer-events: none; */
+	position: fixed;
+	z-index: 99999;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 100vh;
+	width: 100vw;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient:vertical;
+	-webkit-box-direction:normal;
+	-webkit-flex-direction:column;
+	        flex-direction:column;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-flex-wrap: wrap;
+	        flex-wrap: wrap; 
+	margin-top: -50rpx;
+}
+.mask .title{
+	color: #ffffff;
+	font-size: 12px;
+	margin-top: 40rpx;
+}
+.mask.mask-show{
+	background: rgba(7, 17, 27, .3);
+}
+/* loading加载动画的css */
+.loading13 {
+  width: 45rpx;
+  position: relative;
+}
+.loading13 view {
+  display: block;
+  position: absolute;
+  bottom: 0rpx;
+  width: 9rpx;
+  height: 5rpx;
+  background: coral;
+  -webkit-animation: loading13 1.5s infinite ease-in-out;
+  animation: loading13 1.5s infinite ease-in-out;
+}
+.loading13 view:nth-child(2) {
+  left: 11rpx;
+  -webkit-animation-delay: 0.2s;
+  animation-delay: 0.2s;
+}
+.loading13 view:nth-child(3) {
+  left: 22rpx;
+  -webkit-animation-delay: 0.4s;
+  animation-delay: 0.4s;
+}
+.loading13 view:nth-child(4) {
+  left: 33rpx;
+  -webkit-animation-delay: 0.6s;
+  animation-delay: 0.6s;
+}
+.loading13 view:nth-child(5) {
+  left: 44rpx;
+  -webkit-animation-delay: 0.8s;
+  animation-delay: 0.8s;
+}
+@-webkit-keyframes loading13 {
+0% {
+    height: 5rpx;
+    -webkit-transform: translateY(0rpx);
+    transform: translateY(0rpx);
+    background: coral;
+}
+25% {
+    height: 30rpx;
+    -webkit-transform: translateY(15rpx);
+    transform: translateY(15rpx);
+    background: cornflowerblue;
+}
+50% {
+    height: 5rpx;
+    -webkit-transform: translateY(0rpx);
+    transform: translateY(0rpx);
+    background: cornflowerblue;
+}
+100% {
+    height: 5rpx;
+    -webkit-transform: translateY(0rpx);
+    transform: translateY(0rpx);
+    background: coral;
+}
+}
+@keyframes loading13 {
+0% {
+    height: 5rpx;
+    -webkit-transform: translateY(0rpx);
+    transform: translateY(0rpx);
+    background: coral;
+}
+25% {
+    height: 30rpx;
+    -webkit-transform: translateY(15rpx);
+    transform: translateY(15rpx);
+    background: cornflowerblue;
+}
+50% {
+    height: 5rpx;
+    -webkit-transform: translateY(0rpx);
+    transform: translateY(0rpx);
+    background: cornflowerblue;
+}
+100% {
+    height: 5rpx;
+    -webkit-transform: translateY(0rpx);
+    transform: translateY(0rpx);
+    background: coral;
+}
+}
+.close{ width:30px;height:30px;float:right;right:4%;top:8px;
+}
+.pay-list{ width:100%;height:100%;position:fixed;bottom:0;background:rgba(0,0,0,0.5);z-index:99;
+}
+.pay-content{ width:100%;background:#FFFFFF;bottom:0;position:absolute;padding:0 0 10px;
+}
+.pay-title{ width:100%;height:50px;line-height:50px;font-size:18px;padding:0 5%;color:#666666;border-bottom:1px solid #E8E8E8;
+}
+.pay-code-list{ width:90%;margin:20px 5% 10px;height:30px;border-bottom:1px dashed #E2E2E2;padding:0 0 15px;
+}
+.pay-code-list view{ display:inline-block;
+}
+.pay-img{ width:30px;height:30px;float:left;margin-right:8px;
+}
+.pay-name{ height:30px;float:left;font-size:16px;line-height:30px;color:#666666;
+}
+.pay-botton{ width:24px;height:24px;float:right;margin-top:3px;
+}
+.select{ border:1px solid #FFB800;background:#F8F8F8;
+}
+.custom{ width:98%;height:40px;line-height:40px;margin-top:20px;color:#666666;border:1px solid #E8E8E8;-webkit-border-radius:3px;border-radius:3px;padding:0 1%;
+}
+.custom input{ font-size:13px;
+}
+.input{ height:40px;line-height:40px;padding:0 10px;
+}
+.money{ color:#FFFFFF;padding:0 15px;
+}
+.pay{ color:#FFFFFF;background:#ff5e63;float:right;padding:0 15px;margin-right:15px;
+}
+.bottom-pay{ width:100%;background:#2C405A;margin-top:10px;position:fixed;bottom:0;font-size:15px;height:50px;line-height:50px;
+}
+.bottom-pay view{ display:inline-block;
+}
+.center-content{ width:90%;margin-top:0;padding:10px 5%;
+}
+.center-title{ padding:15px 2px;color:#666666;font-size:16px;
+}
+.center-scroll{ white-space:nowrap;
+}
+.center-info{
+	display: inline-block;
+	margin: 0 30rpx 0 0;
+	width: 43%;
+	height: 145px;
+	-webkit-border-radius: 8px;
+	        border-radius: 8px;
+	/*border: 2px solid #3F536E; */
+	/*box-shadow: 0px 6px 6px 0px rgba(103, 103, 103, 0.5); */
+	text-align: center;
+	padding: 20px 0 0 0;
+	/*background: #3F536E; */
+}
+/*.default{ background: -webkit-gradient(linear, left top, right top, from(rgba(0,0,0,0.3)), to(#3F536E)); } */
+.default{ border:1px solid #E8E8E8;
+}
+.center-info view{ padding:5px 1%;font-size:16px;
+}
+.center-name{ color: #333333;border-bottom:1px solid #E8E8E8;width:80%;margin:0 auto;height:20px;line-height:20px;
+}
+.center-number{ color: #666666;width:98%;height:50px;line-height:50px;
+}
+.center-money{ color:#FFB800;font-weight:bold;width:80%;margin:auto;border:1px solid #E8E8E8;-webkit-border-radius:50px;border-radius:50px;
+}
+.myGold{ margin-top:15px;background:rgba(103,103,103,0.8);padding:8px 0;font-size:15px;
+}
+.gold{ width:30px;height:30px;
+}
+.head-content{ 
+	width: 100%;
+	height: 350rpx;
+	background-image: -webkit-gradient(linear, left top, right top, from(rgba(255,12,208,0.8)), to(rgba(254,67,101,0.8)));
+	background-image: -webkit-linear-gradient(left, rgba(255,12,208,0.8), rgba(254,67,101,0.8));
+	background-image: linear-gradient(to right, rgba(255,12,208,0.8), rgba(254,67,101,0.8));
+	-webkit-clip-path: polygon(0% 0%,0% 100%,100% 65%,100% 0%);
+	        clip-path: polygon(0% 0%,0% 100%,100% 65%,100% 0%);
+}
+.username{ font-size:17px;
+}
+.vipTime{ font-size:12px;margin-top:10px;background:rgba(255,94,99,0.8);display:inline-block;padding:5px 10px;-webkit-border-radius:5px;border-radius:5px;
+}
+.head-top{ 
+	width:70%;
+	background: rgba(239,187,52,0.9);
+	margin: -200rpx auto 0;
+	-webkit-border-radius: 10px;
+	        border-radius: 10px;
+	z-index: 3;
+	position: relative;
+	color: #FFFFFF;
+	padding: 20px 0;
+	height: 120px;
+	text-align: center;
+	-webkit-box-shadow: 0px 6px 6px 0px rgba(103, 103, 103, 0.8);
+	        box-shadow: 0px 6px 6px 0px rgba(103, 103, 103, 0.8);
+}
+.content{ width:100%;
+}
+.head{ 
+	background: rgba(218,171,57,0.6);
+	text-align: center;
+	padding: 13px 0;
+	color: #FFFFFF;
+	width: 80%;
+	margin: auto;
+	-webkit-border-radius: 10px;
+	        border-radius: 10px;
+	-webkit-box-shadow: 0px 4px 4px 0px rgba(103, 103, 103, 0.3);
+	        box-shadow: 0px 4px 4px 0px rgba(103, 103, 103, 0.3);
+	height: 50rpx;
+	line-height: 50rpx;
+}
+.head view{ display:inline-block;width:100px;font-size:18px;
+}
+.ok{ border-bottom:2px solid #FFFFFF;padding-bottom:2px;
+}
+
